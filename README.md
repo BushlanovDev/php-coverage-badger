@@ -11,8 +11,10 @@ Composer!
 ## Usage
 
 1. Generate [XML Code Coverage](https://phpunit.de/manual/current/en/logging.html#logging.codecoverage.xml) using [PHPUnit](https://phpunit.de/manual/current/en/appendixes.configuration.html#appendixes.configuration.logging)
-1. Run `vendor/bin/php-coverage-badger /path/to/clover.xml /path/to/badge/destination.svg`
-    * e.g. `vendor/bin/php-coverage-badger build/clover.xml report/coverage.svg`
+1. Run `vendor/bin/php-coverage-badger /path/to/clover.xml /path/to/badge/destination.svg <optional text:default "coverage">`
+   * e.g. `vendor/bin/php-coverage-badger build/clover.xml report/coverage.svg` [![coverage ](.github/coverage.svg)]()
+   * e.g. `vendor/bin/php-coverage-badger build/clover.xml report/phpunit.svg PHPUnit` [![PHPUnit ](.github/phpunit.svg)](#)
+   * e.g. `vendor/bin/php-coverage-badger build/clover.xml report/your-text-here.svg "Aprx9chr"` [![PHPUnit ](.github/your-text-here.svg)](#)
 
 ## Acknowledgements
 
