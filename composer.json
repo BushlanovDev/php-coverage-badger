@@ -1,9 +1,9 @@
 {
-    "name": "jaschilz/php-coverage-badger",
+    "name": "bushlanov-dev/php-coverage-badger",
     "description": "Create a code coverage badge from a PHPUnit Clover XML file.",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/jaschilz/PhpCoverageBadge",
+    "homepage": "https://github.com/BushlanovDev/php-coverage-badge",
     "authors": [
         {
             "name": "Joseph Schilz",
@@ -18,5 +18,9 @@
     ],
     "bin": [
         "bin/php-coverage-badger"
-    ]
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-simplexml": "*"
+    }
 }
