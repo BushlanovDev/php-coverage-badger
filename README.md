@@ -23,3 +23,6 @@ This library is forked from [Michael Moussa's](https://github.com/ocramius) [php
 
 Inspiration for generating an SVG badge from coverage results is taken from the [coverage-badge](https://pypi.python.org/pypi/coverage-badge) Python library, derived from the [Shields.io](https://github.com/badges/shields/) project.
 
+## License
+
+This repository's source code is available under the [MIT License](LICENSE).
